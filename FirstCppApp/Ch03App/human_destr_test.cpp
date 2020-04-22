@@ -8,7 +8,7 @@ private:
 
 public:
 	Human(const char* name, int age) {
-		this->name = new char[strlen(name) + 1];
+		this->name = new char[strlen(name) + 1]; // this에서 -> private의 변수를 사용하기 위함
 		strcpy(this->name, name);
 		this->age = age;
 		printf("%s 객체생성자가호출되었습니다.\n", this->name);
