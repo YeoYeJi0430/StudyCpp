@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{483E39B4-2B19-4B7C-AB8B-7D84032C7E0E}</ProjectGuid>
-    <RootNamespace>Chap08App</RootNamespace>
+    <ProjectGuid>{74D3F9F6-75D5-4ACE-B334-B62547353217}</ProjectGuid>
+    <RootNamespace>Exam</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,11 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="cursor.h" />
-    <ClInclude Include="PosValue.h" />
+    <ClCompile Include="yyj_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NestTemplate.cpp" />
+    <ClInclude Include="cursor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

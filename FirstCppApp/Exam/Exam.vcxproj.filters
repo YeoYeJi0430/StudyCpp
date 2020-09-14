@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GraphicObject.cpp">
+    <ClCompile Include="yyj_main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
